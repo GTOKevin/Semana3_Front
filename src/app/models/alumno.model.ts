@@ -4,4 +4,5 @@ export class Alumno {
     dni?:string;
     correo?:string;
     fechaNacimiento?:Date;
+    direccion?:string;
 }

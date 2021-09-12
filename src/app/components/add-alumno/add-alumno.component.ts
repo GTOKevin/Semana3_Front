@@ -17,7 +17,8 @@ export class AddAlumnoComponent implements OnInit {
     nombre: '',
     dni: '',
     correo: '',
-    fechaNacimiento: new Date()
+    fechaNacimiento: new Date(),
+    direccion: ''
   }
 
   ngOnInit(): void {
